@@ -587,3 +587,16 @@ img {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   margin: 80px 50%;
 }
+.modal-close-button {
+  margin: 24px 24px 536px 360px;
+  width: 24px;
+  height: 24px;
+  background-color: var(--cornflower);
+  border-radius: 50%;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.modal-close-icon {
+  align-items: center;
+  justify-content: center;
+}

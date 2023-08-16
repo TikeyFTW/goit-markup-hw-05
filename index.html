@@ -425,7 +425,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button data-modal-close>x</button>
+        <button class="modal-close-button" data-modal-close>
+          <svg class="modal-close-icon" width="8px" height="8px">
+            <use href="./css/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
